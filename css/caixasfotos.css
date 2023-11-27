@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.caixa1, .caixa2, .caixa3, .caixa4{
+    display: flex;
+    margin: 2rem;
+    text-align: left;
+
+}
+
+.caixaprinc{
+    font-size: 20px;
+    padding: 25px;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.textoscaixa{
+    margin: 30px;
+}
+
+
+
+@media screen and (max-width: 450px){
+    .caixa1, .caixa2, .caixa3, .caixa4{
+        display: block;
+        margin: 1px;
+       
+    }
+
+    .caixaprinc{
+        font-size: 20px;
+        padding: 25px;
+        max-width: 90%;
+        max-height: 90%;
+        
+    }
+
+}
